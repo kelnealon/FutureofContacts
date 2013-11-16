@@ -1,0 +1,122 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="bootstrap.js"></script>
+<script> window.onload = function(){ alert("welcome to the future of contact lenses"); }
+    $(document).ready(function(){
+        $('#mydiv').fadeIn();   
+
+        $("body").bind('click', function(ev) {
+        var myID = ev.target.id;
+        if (myID !== 'mydiv') {
+            $('#mydiv').fadeOut();
+        }
+    });
+        $('#myAffix').affix({
+            offset: {
+                top: 100
+            , bottom: function () {
+                    return (this.bottom = $('.bs-footer').outerHeight(true)) 
+                }
+            }
+        })
+        <div data-spy="affix" data-offset-top="200">...</div>
+});</script>
+<link href="bootstrap.css" rel="stylesheet" />
+<style>
+h1 {text-align:center; font-size: 1250px; margin-bottom: 100px; margin-top:100px}
+h2 {text-align:center; font-size: 400px; margin-bottom: 0; margin-top:0}
+h3 {text-align:center; font-size: 200px; margin-bottom: 0; margin-top:0}
+h4 {text-align:center; font-size: 200px; margin-bottom:0; margin-top:0}
+    h2, h3, h4 {line-height: 1em;}
+</style>
+</head>
+<body>
+<section class="container">
+	<div class="row">
+	   <div class="col-xs-12"><section class="second"><h1>T</h1></div></section>
+    </div></section>
+    <div class="row">
+        <div class="col-xs-12"><section class="second"><h2>H E</h2></div>
+    </div></section>
+    <div class="row">
+        <di class="col-xs-12"><section class="second"><h3>F U T U R E</h3></di>
+    </div></section>
+    <div class="row">
+        <div class="col-xs-12"><section class="third"><h4>of</h4></div>
+    </div></section>
+    <div class="row">
+        <div class="col-xs-12"><section class="second"><h2>C O N</h2></div>
+    </div></section>
+    <div class="row">
+        <div class="col-xs-12"><section class="second"><h1>T</h1></div>
+    </div></section>
+    <div class="row">
+        <div class="col-xs-12"><section class="second"><h2>A C T</h2></div>
+    </div></section>
+    <div class="row">
+        <div class="col-xs-12"><section class="second"><h3>L E N S E S</h3></div>
+    </div></section>
+</section>
+<section class="container"><section class="second weak">
+    <div class="row">
+             <div class="col-xs-1"></div>
+             <div class="col-xs-1">20|14</div>
+             <div class="col-xs-1">20|16</div>
+             <div class="col-xs-1">20|19</div>
+             <div class="col-xs-1">20|22</div>
+             <div class="col-xs-1">20|25</div>
+             <div class="col-xs-1">20|26</div>
+             <div class="col-xs-1">20|28</div> 
+             <div class="col-xs-1">20|32</div>
+             <div class="col-xs-1">20|33</div>
+             <div class="col-xs-1">20|40</div>
+	       </div>
+    </section></section>
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12"><img alt="The Future of Contacts" src="images/FixedImage.png"></div>
+    </div>
+</section>
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12"><img alt="Intro" src="images/Intro.png"></div>
+    </div>
+</section>
+<section class="container">
+    <div class="row">
+		<div class="col-xs-12"><img alt="2014" src="images/2014.png"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"><h3 class="date">20</h3></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"><h3 class="date">_</h3>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"><h3 class="date">14</h3>
+    </div>
+    <div class="row">
+        <div class="col-xs-12"><h3 class="date">twenty-fourteen</h3>
+    </div>
+</section>
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12"><img alt="2016" src="images/2016.png"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">20</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">_</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">16</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">twenty-sixteen</div>
+    </div>
+</section>
+
+</body>
+</html>
