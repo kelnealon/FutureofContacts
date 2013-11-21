@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v3.0.0
+ * Bootstrap v3.0.2
  *
  * Copyright 2013 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -7,8 +7,6 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* Usage code from Fonts.com */
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=41a28de4-cf1e-4148-b832-01f7561a1bea");
 @font-face{
@@ -80,6 +78,7 @@ section { margin-bottom: 60px; }
 .third { font-family:"Feel Script W00 Regular"; }
 h1 { font-size: 2em; margin-bottom: 24px; }
 
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
 details,
@@ -263,16 +262,11 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
 }
-
-/* #Kelly Added This to make NAV Horizantal */
-ul.datenav li{font-family:"Rockwell W01"; line-height: 2em; display: inline-block; float: left; width: 8.33333%}
-/* #End of What Kelly Added */
-
 input,
 button,
 select,
@@ -288,7 +282,7 @@ a {
 a:hover,
 a:focus {
   color: #2a6496;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted #333;
@@ -452,6 +446,9 @@ hr {
 .col-xs-pull-1 {
   right: 8.333333333333332%;
 }
+.col-xs-pull-0 {
+  right: 0%;
+}
 .col-xs-push-12 {
   left: 100%;
 }
@@ -488,6 +485,9 @@ hr {
 .col-xs-push-1 {
   left: 8.333333333333332%;
 }
+.col-xs-push-0 {
+  left: 0%;
+}
 .col-xs-offset-12 {
   margin-left: 100%;
 }
@@ -523,6 +523,9 @@ hr {
 }
 .col-xs-offset-1 {
   margin-left: 8.333333333333332%;
+}
+.col-xs-offset-0 {
+  margin-left: 0%;
 }
 @media (min-width: 768px) {
   .container {
@@ -603,6 +606,9 @@ hr {
   .col-sm-pull-1 {
     right: 8.333333333333332%;
   }
+  .col-sm-pull-0 {
+    right: 0%;
+  }
   .col-sm-push-12 {
     left: 100%;
   }
@@ -639,6 +645,9 @@ hr {
   .col-sm-push-1 {
     left: 8.333333333333332%;
   }
+  .col-sm-push-0 {
+    left: 0%;
+  }
   .col-sm-offset-12 {
     margin-left: 100%;
   }
@@ -674,6 +683,9 @@ hr {
   }
   .col-sm-offset-1 {
     margin-left: 8.333333333333332%;
+  }
+  .col-sm-offset-0 {
+    margin-left: 0%;
   }
 }
 @media (min-width: 992px) {
@@ -755,6 +767,9 @@ hr {
   .col-md-pull-1 {
     right: 8.333333333333332%;
   }
+  .col-md-pull-0 {
+    right: 0%;
+  }
   .col-md-push-12 {
     left: 100%;
   }
@@ -791,6 +806,9 @@ hr {
   .col-md-push-1 {
     left: 8.333333333333332%;
   }
+  .col-md-push-0 {
+    left: 0%;
+  }
   .col-md-offset-12 {
     margin-left: 100%;
   }
@@ -826,6 +844,9 @@ hr {
   }
   .col-md-offset-1 {
     margin-left: 8.333333333333332%;
+  }
+  .col-md-offset-0 {
+    margin-left: 0%;
   }
 }
 @media (min-width: 1200px) {
@@ -907,6 +928,9 @@ hr {
   .col-lg-pull-1 {
     right: 8.333333333333332%;
   }
+  .col-lg-pull-0 {
+    right: 0%;
+  }
   .col-lg-push-12 {
     left: 100%;
   }
@@ -942,6 +966,9 @@ hr {
   }
   .col-lg-push-1 {
     left: 8.333333333333332%;
+  }
+  .col-lg-push-0 {
+    left: 0%;
   }
   .col-lg-offset-12 {
     margin-left: 100%;
@@ -979,15 +1006,59 @@ hr {
   .col-lg-offset-1 {
     margin-left: 8.333333333333332%;
   }
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+.col-md-9 {
+	height: 300%; 
+}
+.underline {
+	border-bottom: solid 3px #000;
+}
+section.second {margin-bottom: 0px;}
+.m-toc {
+	font-family: "Rockwell W01";
+	left: 32px;
+	list-style-type: none;
+	list-style-position: initial;
+	list-style-image: initial;
+	margin: 20px;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding: 0;
+	position: fixed;
+	top: 100px;
+	z-index: 49;}
+.bs-sidebar.affix {
+position: fixed;
+top: 0px;
+left: 50%;
+margin-left: -480px;
+}
+.affix-top {
+	padding-top: 0px;
+	text-align: center;
+}
+.bs-sidebar.affix-bottom .bs-sidenav, .bs-sidebar.affix .bs-sidenav {
+margin-top: 0;
+margin-bottom: 0;
+}
+#2014 {
+ background-image: url('images/2014.png');
 }
 
 
-/* CSS Overrides */
+#2014:hover {
+ background-image: url('images/comfort.png), url('images/2014.png');
+}
+
 .container {
-	max-width: none !important;
-  width: 960px;
-}
-.col-xs-11 {
+    max-width: none !important;
+    width: 960px;
+}.col-xs-11 {
   width: 880px;
 }
 .col-xs-10 {
@@ -1119,4 +1190,180 @@ hr {
 .col-xs-offset-1 {
   margin-left: 80px;
 }
+
+a.optics1, a.optics2 {
+    text-indent:-999em;
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+}
+.optics1 {
+    position: absolute;
+    top: 65px;
+    left: 120px;
+}
+.optics2 {
+     position: absolute;
+    top: 160px;
+    right: 250px;
+}
+
+a.symbol1 {
+    background-image: url('images/comfort.png');
+}
+a.symbol1:hover {
+    background-image: url('images/comforticon.png');
+}
+
+a.symbol2 {
+    background-image: url('images/sales.png');
+}
+a.symbol2:hover {
+    background-image: url('images/salesup.png');
+}
+
+a.symbol3 {
+    background-image: url('images/comfort.png');
+}
+a.symbol3:hover {
+    background-image: url('images/comforticon.png');
+}
+
+a.symbol4 {
+    background-image: url('images/sales.png');
+}
+a.symbol4:hover {
+    background-image: url('images/salesup.png');
+}
+
+a.symbol5 {
+    background-image: url('images/weartime.png');
+}
+a.symbol5:hover {
+    background-image: url('images/weartimeicon.png');
+}
+
+a.symbol6 {    
+    background-image: url('images/sales.png');
+}
+a.symbol6:hover {
+    background-image: url('images/salesup.png');
+}
+
+a.symbol7 {
+    background-image: url('images/medical.png');
+}
+a.symbol7:hover {
+    background-image: url('images/medicalicon.png');
+}
+
+a.symbol8 {    
+    background-image: url('images/sales.png');
+}
+a.symbol8:hover {
+    background-image: url('images/salesdown.png');
+}
+
+a.symbol9 {
+    background-image: url('images/medical.png');
+}
+a.symbol9:hover {
+    background-image: url('images/medicalicon.png');
+}
+
+a.symbol10 {
+    background-image: url('images/sales.png');
+}
+a.symbol10:hover {
+    background-image: url('images/salesup.png');
+}
+
+a.symbol11 {
+    background-image: url('images/medical.png');
+}
+a.symbol11:hover {
+    background-image: url('images/medicalicon.png');
+}
+
+a.symbol12 {
+    background-image: url('images/sales.png');
+}
+a.symbol12:hover {
+    background-image: url('images/salesdown.png');
+}
+
+a.symbol13 {
+    background-image: url('images/technology.png');
+}
+a.symbol13:hover {
+    background-image: url('images/technologyicon.png');
+}
+
+a.symbol14 {
+    background-image: url('images/sales.png');
+}
+a.symbol14:hover {
+    background-image: url('images/salesdown.png');
+}
+
+a.symbol15 {
+    background-image: url('images/technology.png');
+}
+a.symbol15:hover {
+    background-image: url('images/technologyicon.png');
+}
+
+a.symbol16 {
+    background-image: url('images/sales.png');
+}
+a.symbol16:hover {
+    background-image: url('images/salesup.png');
+}
+
+a.symbol17 {
+    background-image: url('images/technology.png');
+}
+a.symbol17:hover {
+    background-image: url('images/technologyicon.png');
+}
+
+a.symbol18 {
+    background-image: url('images/sales.png');
+}
+a.symbol18:hover {
+    background-image: url('images/salesdown.png');
+}
+
+a.symbol19 {
+    background-image: url('images/technology.png');
+}
+a.symbol19:hover {
+    background-image: url('images/technologyicon.png');
+}
+
+a.symbol20 {
+    background-image: url('images/sales.png');
+}
+a.symbol20:hover {
+    background-image: url('images/salesup.png');
+}
+
+#docs {
+	position: fixed;
+	right: 20px;
+	top: 30px;
+}
+li {
+	list-style: none;
+}
+
+.m-nav-toc a.active {
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+
+    
+
+
 
