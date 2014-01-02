@@ -1196,6 +1196,7 @@ a.optics1, a.optics2 {
     height: 60px;
     width: 60px;
     background-repeat: no-repeat;
+    display:block;
 }
 .optics1 {
     position: absolute;
@@ -1203,16 +1204,20 @@ a.optics1, a.optics2 {
     left: 120px;
 }
 .optics2 {
-     position: absolute;
-    top: 160px;
+    position: absolute;
+    top: 180px;
     right: 250px;
 }
 
 a.symbol1 {
     background-image: url('images/comfort.png');
+    top: 65px;
+    left: 120px;
 }
 a.symbol1:hover {
     background-image: url('images/comforticon.png');
+     top: 60px;
+    left: 120px;
 }
 
 a.symbol2 {
@@ -1220,6 +1225,7 @@ a.symbol2 {
 }
 a.symbol2:hover {
     background-image: url('images/salesup.png');
+      background-position: 100% 60px -25px -25px;
 }
 
 a.symbol3 {
